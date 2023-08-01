@@ -26,6 +26,7 @@ ClapTrap::ClapTrap(const ClapTrap &copy)
     _hitPoints = copy._hitPoints;
     _energyPoints = copy._energyPoints;
     _attackDamage = copy._attackDamage;
+    std::cout << B << "Initialize ClapTrap" << C_OFF << std::endl;
 }
 
 ClapTrap& ClapTrap::operator=(const ClapTrap &obj) {
